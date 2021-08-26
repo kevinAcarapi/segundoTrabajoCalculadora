@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Sirve para pasarle informacion a la pagina para que obtenga la codificacion de caracteres utf 8  -->
+    <meta charset="UTF-8">
+    <!-- Titulo de la pestaña -->
+    <title>Calculadora con JavaScript</title>       
+    <!-- Elegimos la hoja de estilo ubicada en la carpeta css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Importamos la libreria jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<!-- Cuerpo de la pagina. -->
+<body>
+    <!-- Etiqueta tabla que contiene una clase teclado -->
+    <table class="teclado">
+        <!-- primera fila -->
+        <tr>
+            <!-- Primera celda de la fila correspondiente con un atributo colspan para que ocupe 4 celdas -->
+            <td colspan="4">
+                <!-- Etiqueta span con id pantalla para colocar los caracteres que el usuario proponga -->
+                <span id="pantalla"></span>
+            </td>
+        <tr>
+            <!-- Segunda fila -->
+        <tr >
+            <!-- Primera celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 0 -->
+                <button>0</button>
+            </td>
+            <!-- Segunda celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 1 -->
+                <button>1</button>
+            </td>
+            <!-- Tercera celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 2 -->
+                <button>2</button>
+            </td>
+            <!-- Cuarta celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 3 -->
+                <button>3</button>
+            </td>
+        </tr>
+        <!-- Tercera fila -->
+        <tr >
+            <!-- Primera celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 4 -->
+                <button>4</button>
+            </td>
+            <!-- Segunda celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 5 -->
+                <button>5</button>
+            </td>
+            <!-- Tercera celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 6 -->
+                <button>6</button>
+            </td>
+            <!-- Cuarta celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 7 -->
+                <button>7</button>
+            </td>
+        </tr>
+        <!-- Cuarta fila -->
+        <tr>
+            <!-- celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 8 -->
+                <button>8</button>
+            </td>
+            <!-- celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto 9 -->
+                <button>9</button>
+            </td>
+            <!-- celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto + -->
+                <button>+</button>
+            </td>
+            <!-- celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto - -->
+                <button>-</button>
+            </td>
+        </tr>
+        <!-- Quinta fila -->
+        <tr>
+            <!-- celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto C -->
+                <button>C</button>
+            </td>
+            <!-- celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto = -->
+                <button>=</button>
+            </td>
+            <!-- celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto * -->
+                <button>*</button>
+            </td>
+            <!-- celda de la fila correspondiente. -->
+            <td>
+                <!-- Boton con el texto / -->
+                <button>/</button>
+            </td>
+        </tr>
+    </table>
+    <!-- Llamamos a nuestro archivo javascript que esta ubicada en la carpeta JS -->
+<script src="js/main.js"></script>
+</body>
+<html>

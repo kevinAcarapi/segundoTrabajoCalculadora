@@ -1,0 +1,35 @@
+  .teclado{ /* llamamos a la clase teclado y le asignamos las siguientes propiedades y valores. */
+    display:block; /* Se utiliza para ocupar el ancho completo del navegador. */
+    margin:0 auto; /* le asignamos que los margenes de arriba y abajo tenga un valor de 0 y que en la derecha e izquierda tenga un valor automatico. */
+    background-color:#2980b9; /* ponemos un color de fondo. */
+    padding:10px; /* le asignamos que tenga un espaciado interno arriba, derecha, abajo e izquierda. */
+    width:300px; /* le asignamos que su ancho sea de 300px */
+    height:440px; /* le asignamos que su alto sea de 440px */
+    border-radius: 25px; /* le asignamos que tenga arriba, derecha, abajo e izquierda un borde de 25px. */
+  }
+  #pantalla{ /* llamamos al id pantalla y le asignamos las siguientes propiedades y valores. */
+    display:block; /* Se utiliza para ocupar el ancho completo del navegador. */ 
+    text-align: center; /* se utiliza para centrar un contenido. */
+    font-size: 40px; /* le asignamos que su tamaño de letras sea de 40px */
+    margin-bottom: 30px; /* asignamos que tenga una separacion de 40px de la parte de abajo  */
+    width:250px; /* asignamos un ancho de 250px */
+    height: 100px; /* asignamos un alto de 100px */
+    line-height: 100px; /* se utiliza para establecer distancia entre lineas de texto. */
+    background-color:#fff; /* ponemos un color de fondo. */
+    border-radius: 25px; /* le asignamos que tenga arriba, derecha, abajo e izquierda un borde de 25px. */
+    overflow-y: scroll; /* define qué se debe mostrar cuando el contenido se desborda de los extremos superior e inferior de un elemento en bloque */
+    color: #C00000; /* asignamos un color rojo */
+  }
+  
+  button { /* llamamos al selector button y le asignamos una propieda-valor */
+    font-size: 1.3rem; /* asignamos que su tamaño de letra sea de 20.8px con la medida "rem"*/
+  }
+  
+  td { /* llamamos al selector td y le asignamos una propieda-valor */
+    padding: .8rem; /* asignamos un espaciado arriba, a la derecha, abajo, a la izquierda de 12.8 px con la medida "rem" */
+  }
+
+  button:hover{ /* llamamos al selector button y le asignamos una propieda-valor y la pseudo-clase "hover" que se activara cuando el cursor pase por las etiquetas "button"*/
+    background-color: green; /* asignamos un color de fondo. */
+  }
+  
